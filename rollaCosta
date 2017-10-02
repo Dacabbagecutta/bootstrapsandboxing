@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>rollaCosta</title>
+</head>
+<body>
+
+  
+  
+  <style>
+    
+    .blackBox{
+      
+      border-radius: 5px;
+      box-shadow: 0.2vw 0.2vw 0.2vw grey, -0.2vw 0.2vw 0.2vw grey;
+      height: 3vw;
+      width: 60vw;
+      background-color: lightgrey;
+      color: black;
+      font-size: 2vw;
+      border: 0.1px solid black;
+    }
+    .secondBox{
+      
+      margin-top: 0vw;
+      border-radius: 5px;
+      box-shadow: 0.2vw 0.2vw 0.2vw grey, -0.2vw 0.2vw 0.2vw grey;
+      height: 3vw;
+      width: 80vw;
+      background-color: black;
+      color: white;
+      font-size: 2vw;
+      border: 0.1px solid black;
+    }
+    .headerPhoto{
+      
+      width: 78vw;
+      height: 200px;
+      background-size: 100% 100%;
+      background-position: 0vw 0vw;
+      background-repeat: no-repeat;
+      background-image: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?dpr=1&auto=compress,format&fit=crop&w=1978&h=&q=80&cs=tinysrgb&crop=");
+    }
+    
+  </style>
+  
+  
+  
+  <div class ="blackBox container-fluid">
+    <div class ="row text-center">
+      <div class = "col-xs-3">Social</div>
+      <div class = "col-xs-3">Hostus</div>
+      <div class = "col-xs-3">Roosta</div>
+      <div class = "col-xs-3">Mostus</div>
+    </div>
+  </div>
+  
+  
+  <div class = "headerPhoto container-fluid">
+     <!--Altmünster am Traunsee, Österreich
+      Image: by: Simon Matzinger
+      link: 8moments.deviantart.com   
+      -->
+    
+  </div>
+  
+  
+   <div class ="secondBox container-fluid">
+    <div class ="row text-center">
+      <div class = "col-xs-3">DuhDuece</div>
+      <div class = "col-xs-3">DuhDuece</div>
+      <div class = "col-xs-3">DuhDuece</div>
+      <div class = "col-xs-3">DuhDuece</div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+</body>
+</html>
