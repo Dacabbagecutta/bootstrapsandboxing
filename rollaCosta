@@ -46,6 +46,16 @@
       background-repeat: no-repeat;
       background-image: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?dpr=1&auto=compress,format&fit=crop&w=1978&h=&q=80&cs=tinysrgb&crop=");
     }
+     .bottomBox{
+      border-radius: 5px;
+      box-shadow: 0.2vw 0.2vw 0.2vw grey, -0.2vw 0.2vw 0.2vw grey;
+      background-color: black;
+      color: white;
+      width: 78vw;
+      height: 200px;
+      font-size: 0.9vw;
+      margin-top: 60vw;
+    }
     
   </style>
   
@@ -83,6 +93,24 @@
     </div>
   </div>
   
+  
+  
+  
+  
+     <div class ="bottomBox container-fluid">
+    <div class ="row text-center">
+      <div class = "col-md">DuhDuece</div>
+    </div>
+    <div class ="row text-center" id="credit">
+      <div class = "col-md"><br><br><br>Header image: by: Simon Matzinger</div>
+    </div>
+    <div class ="row text-center">
+      <div class = "col-md">Altmünster am Traunsee, Österreich</div>
+    </div>
+     <div class ="row text-center">
+      <a href="8moments.deviantart.com"><div class = "col-md">8moments.deviantart.com</div></a>
+    </div>
+  </div>
   
   
   
