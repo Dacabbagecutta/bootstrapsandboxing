@@ -1,0 +1,47 @@
+<!doctype html>
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" 
+          crossorigin="anonymous">
+</head>
+<body>
+    
+    
+  
+    
+    <div class = "hello container-fluid">
+      <div class = "row">
+        <div class = "col-md">
+          <p>Just Push</p>
+            <input type="text" class="form-control" placeholder="Text input">
+            <button type="submit" class="btn btn-primary">Submit (Send)</button>
+        </div>
+      </div>  
+  </div>
+  
+  
+  
+  
+    <style>
+      .hello{
+         margin-top: 10vw;
+         width: 50%;
+         height: 160px;
+         background-color: black;
+      }
+      .col-md{
+        margin-top: 10px;
+      }  
+      p{
+        color: white;
+      }  
+      button{
+        margin-top: 20px;
+      }
+     
+    </style>
+    
+    
+</body>
+</html>
