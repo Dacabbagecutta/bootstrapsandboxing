@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <!-- font awesome cdn -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <!-- Bootstrap CDN -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+  
+ <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Chela+One|Coda+Caption:800|Corben:700|Coustard:900|Emblema+One|Fascinate|Holtwood+One+SC|Limelight|Luckiest+Guy|Racing+Sans+One|Rubik+Mono+One|Skranji:700|Titillium+Web:900" rel="stylesheet">
+  
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+ <!-- Jquery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+ 
+  <!-- 
+
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Coustard', serif;
+font-family: 'Corben', cursive;
+font-family: 'Fascinate', cursive;
+font-family: 'Holtwood One SC', serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Limelight', cursive;
+font-family: 'Racing Sans One', cursive;
+font-family: 'Skranji', cursive;
+font-family: 'Coda Caption', sans-serif;
+font-family: 'Emblema One', cursive;
+font-family: 'Chela One', cursive;     
+
+-->
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <style>
+    
+    body{background-color: grey;}
+    
+    .navBah{
+      height: 4vw;
+      width: 100%;
+      background-color: black;
+    }
+    #navBahRow{
+      margin-top: -1px;
+      
+    }
+    #navBahRowA{
+      margin-top: 5px;
+      float: right;
+      color: white;
+      font-size: 2.4vw;
+      color: gold;
+      text-shadow: 2px 2px red;
+      font-family: 'Racing Sans One', cursive;
+    }
+    .col-xs-6 button{
+      height: 3vw;
+      width: 6vw;
+      float: left;
+      margin-top: 8px;
+      margin-right: 5px;
+      font-size: 1.5vw;
+      float: left;
+    }
+  </style>
+  
+  
+  
+  <div class = "navBah container">
+    <div class ="row" id="navBahRow">
+      <div class ="col-xs-5">
+        <p id="navBahRowA">Follow WNSR!&nbsp;&nbsp;&nbsp;</p></div>
+      <div class ="col-xs-6">
+        <button type="button" class="btn btn-primary fa fa-twitter"></button>
+        <button type="button" class="btn btn-primary fa fa-facebook"></button>
+        <button type="button" class="btn btn-primary fa fa-soundcloud"></button>
+      </div>
+    </div>
+  </div>
+  
+         
+  
+  
+  
+  
+  
+  
+</body>
+</html>
