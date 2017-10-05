@@ -59,7 +59,6 @@ font-family: 'Chela One', cursive;
     }
     #navBahRow{
       margin-top: -1px;
-      
     }
     #navBahRowA{
       margin-top: 5px;
@@ -78,6 +77,31 @@ font-family: 'Chela One', cursive;
       margin-right: 5px;
       font-size: 1.5vw;
       float: left;
+    }
+    .navBah2{
+      border-bottom: 2px solid white;
+      border-top: 2px solid white;
+      box-shadow: 3px 3px 3px grey, -3px 3px 3px grey;
+      height: 4vw;
+      width: 100%;
+      background-color: black;
+    } 
+    #navBahRow2{
+      margin-top: 0.3vw;
+      margin-left: 15%;
+      
+    }
+    .navBah2 button{
+      background-color: white;
+      color: black;
+      font-family: 'Racing Sans One', cursive;
+      background-color: clear;
+      float: left;
+      margin-right: 10px;
+      height: 3vw;
+      width: 10vw;
+      float: left;
+      font-size: 1.5vw;
     }
     
     /*  //////////////////////////  */
@@ -123,7 +147,18 @@ font-family: 'Chela One', cursive;
   
   
   
-  
+    
+ <div class = "navBah2 container-fluid">
+    <div class ="row" id="navBahRow2">
+        <button type="button" class="btn btn-primary">Home</button>
+        <button type="button" class="btn btn-primary">Shows</button>
+        <button type="button" class="btn btn-primary">Teams</button>
+        <button type="button" class="btn btn-primary">Photos</button>
+        <button type="button" class="btn btn-primary">Calendar</button>
+        <button type="button" class="btn btn-primary">Advertise</button>
+        <button type="button" class="btn btn-primary">Contact</button>
+      </div>
+   </div>
   
   
   
