@@ -45,9 +45,14 @@ font-family: 'Chela One', cursive;
 <body>
   <style>
     
-    body{background-color: grey;}
+    body{background-color: white;}
+    
+    
+    /*  /////  Social Bar   /////  */
     
     .navBah{
+      border-bottom: 2px solid white;
+      box-shadow: 3px 3px 3px grey, -3px 3px 3px grey;
       height: 4vw;
       width: 100%;
       background-color: black;
@@ -74,11 +79,28 @@ font-family: 'Chela One', cursive;
       font-size: 1.5vw;
       float: left;
     }
+    
+    /*  //////////////////////////  */
+    
+    
+    .logo{
+      margin-top: -1px;
+      border: 2px solid Black;
+      box-shadow: 3px 3px 3px grey, -3px 3px 3px grey;
+      height: 15vw;
+      width: 100vw;
+      background-color: white;
+      background-position: 0vw; 0vh;
+      background-size: 90% 100%;
+      background-image: url("http://nashvillesportsoriginal.com/wp-content/uploads/2012/04/football-header3.jpg");
+  }
+    
+    
   </style>
   
+        <!-- Social Bar -->
   
-  
-  <div class = "navBah container">
+ <div class = "navBah container">
     <div class ="row" id="navBahRow">
       <div class ="col-xs-5">
         <p id="navBahRowA">Follow WNSR!&nbsp;&nbsp;&nbsp;</p></div>
@@ -89,8 +111,22 @@ font-family: 'Chela One', cursive;
       </div>
     </div>
   </div>
-  
+   
+    <!-- /////////////////// -->
          
+  
+  
+  
+    <!-- WNSR LOGO -->
+  <div class ="logo container-fluid"></div>
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
